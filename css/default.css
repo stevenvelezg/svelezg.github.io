@@ -1,0 +1,72 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  background-color: #77AAAD;
+  z-index: 1;
+}
+.img1 {
+    /* The image used */
+    background-color: #D8E6E7;
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caption {
+  position: relative;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+a {
+  text-decoration: none;
+}
+.caption span#border {
+  background-color: #77AAAD;
+}
+.img2 {
+    /* The image used */
+    background-image: url("../img1.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img3 {
+    /* The image used */
+    background-image: url("../img2.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

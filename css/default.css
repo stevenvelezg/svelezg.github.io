@@ -1,6 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
+    font-family: "Rockwell"
 }
 header {
   position: fixed;
@@ -9,6 +10,19 @@ header {
   left: 0;
   background-color: #77AAAD;
   z-index: 1;
+}
+header ul {
+  list-style: none;
+  text-align: right;
+}
+ul a {
+  color: white;
+  font-size: 18px;
+}
+ul li {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
 }
 .img1 {
     /* The image used */
@@ -44,6 +58,25 @@ a {
 .caption span#border {
   background-color: #77AAAD;
 }
+.summary {
+  background-color: #6E7783;
+  text-align: justify;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.summary .text {
+  width: 80%;
+  margin: auto;
+}
+.summary h3 {
+  margin-top: 0;
+  padding-top: 20px;
+  text-align: center;
+}
+.summary p {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
 .img2 {
     /* The image used */
     background-image: url("../img/img1.png");
@@ -69,4 +102,8 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+a:hover {
+  text-decoration: underline;
+  color: #6E7783;
 }
